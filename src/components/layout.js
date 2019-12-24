@@ -62,7 +62,9 @@ export default class Layout extends React.Component {
         <main>{this.props.children}</main>
         <footer className="bg-light py-5">
           <div className="container">
-            <div className="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+            <a href="https://www.instagram.com/british_scottish_ny/">
+              <i className="fab fa-instagram" />
+            </a>
           </div>
         </footer>
       </div>
